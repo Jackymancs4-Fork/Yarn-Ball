@@ -14,7 +14,7 @@ module.exports = {
   },
   devtool: "eval-source-map",
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js?$/,
         exclude: /(node_modules)/,
